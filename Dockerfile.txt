@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:latest
+FROM UBUNTU
 USER root
 RUN apt-get update && apt-get install -y curl
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash
