@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.10
 
 WORKDIR /usr/src/app
 # RUN apk add gcc musl-dev python3-dev libffi-dev openssl-dev 
